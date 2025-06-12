@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={geist.className}>
+      <body className={geist.className} style={{minHeight: "100vh", display: "flex", flexDirection: "column"}}>
         <Providers>
           <Header />
           <PageIntro />
