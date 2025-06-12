@@ -1,3 +1,36 @@
+## 📝 What I implemented and why
+
+- Used **Next.js (App Router)** with **TypeScript** to create a clean and scalable project structure.
+- Integrated **Apollo Client** to fetch data from the provided GraphQL API.
+- Wrapped the entire app with global providers for **Apollo** and **Chakra UI** for easy state and UI management.
+- Used **Chakra UI** for layout and UI components to ensure a consistent design system and responsive layout.
+- For visualizing country measures, I selected **Recharts** as a simple, lightweight, and effective charting library.
+- Since there are only a few available measures, I used **Radio Buttons** instead of a second dropdown to simplify user interaction and improve UX.
+- The app is fully **responsive** and works well across different screen sizes.
+- Included helpful messages for cases where no data is available for a selected country and measure combination, including smooth entry animations for better user feedback.
+
+## 🚫 What I chose not to implement
+
+- Map-based country selection or visualization (due to time constraints).
+- Alphabetical sorting for the country list.
+- Summary display for the most recent data point.
+
+## 💡 What I’d do next with more time
+
+- Add an interactive world map for country selection.
+- Alphabetically sort countries.
+- Display the most recent year's value below the chart.
+- Improve accessibility (ARIA, keyboard navigation, focus management).
+- Improve empty-state experience.
+
+## ⏱️ Time Spent
+
+- Actual implementation: ~2 hours (timeboxed)
+- Preparation and learning: ~4 hours over several evenings
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
